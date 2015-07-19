@@ -10,4 +10,4 @@ title: 我的第一个博文
 3.[使用 GitHub, Jekyll 打造自己的免费独立博客]（http://blog.csdn.net/on_1y/article/details/19259435）
 4.[jekyll详细介绍]（http://jekyll.bootcss.com/）
 
-后边会加入评论功能！期待。。。
+后边会加入分类、标签、评论等功能！期待。。。
