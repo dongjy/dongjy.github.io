@@ -66,15 +66,15 @@ Markdown 支持两种标题的语法，Setext 和 atx 形式。Setext 形式是�
 
 ![markdown简洁语法]({{site.baseurl}}/images/markdown-syntax.png)  
 **索引**  
-[不如][1]  
-![GitHub Octocat][2]
+[董军阳][1]  
+![董军阳][2]
 
-[1]:http://bruce-sha.github.io  
-[2]:http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png
+[1]:http://dongjy.github.io  
+[2]:{{site.baseurl}}/images/markdown-syntax.png
 
 **自动链接**  
-<http://ibruce.info>  
-<bu.ru@qq.com>
+<http://dongjy.github.io>  
+<http://dongjy.github.io>
 
 - 代码
 
