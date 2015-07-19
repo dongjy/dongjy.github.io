@@ -2,6 +2,7 @@
 layout: post
 title: jekyll学习
 ---
+jekyll 学习
 - 配置
 >配置不能使用tab，否则可能被忽略。
 
