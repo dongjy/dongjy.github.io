@@ -4,7 +4,7 @@ title: markdown语法
 ---
 markdown语法
 
-- ###基本
+- 基本
 
 单个回车
 视为空格。
@@ -17,7 +17,7 @@ markdown语法
 即可段内换行。
 
 
-- ###标题
+- 标题
 
 Markdown 支持两种标题的语法，Setext 和 atx 形式。Setext 形式是用底线的形式，利用 = （最高阶标题）和 - （第二阶标题），Atx 形式在行首插入 1 到 6 个 # ，对应到标题 1 到 6 阶。
 
@@ -27,13 +27,13 @@ Markdown 支持两种标题的语法，Setext 和 atx 形式。Setext 形式是�
 ---
 #一阶标题
 ##二阶标题
-- ###修辞和强调
+- 修辞和强调
 
 *这些文字显示为斜体*
 
 **这些文字显示为粗体**
 
-- ###列表
+- 列表
 --- --
 三个或更多-_*，必须单独一行，可含空格
 > 引用
@@ -59,11 +59,10 @@ Markdown 支持两种标题的语法，Setext 和 atx 形式。Setext 形式是�
    * 嵌套列表  
 - 嵌套列表  
 
-
-- ###链接
+- 链接
 
 [董军阳博客](www.dongjy.github.io)  
-- ###图片
+- 图片
 
 ![markdown简洁语法]({{site.baseurl}}/images/markdown-syntax.png)  
 **索引**  
@@ -77,7 +76,7 @@ Markdown 支持两种标题的语法，Setext 和 atx 形式。Setext 形式是�
 <http://ibruce.info>  
 <bu.ru@qq.com>
 
-- ###代码
+- 代码
 
 行的开头空4个空格，表示程序代码，例如：  
 C#:
