@@ -59,10 +59,10 @@ jekyll 生成网站输出的地方。一般加入.gitignore
 
 - 源代码位置
 
-    source: DIR # 也可在编译时指定 -s, --source DIR
+    source: DIR 
+> 也可在编译时指定 -s, --source DIR
 
 - 输出网站位置 
 
-    # 编译参数 -d, --destination DIR
     destination: DIR 
- 
+ >编译参数 -d, --destination DIR
