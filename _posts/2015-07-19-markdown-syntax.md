@@ -58,10 +58,10 @@ Markdown 支持两种标题的语法，Setext 和 atx 形式。Setext 形式是�
 
 - ###链接
 
-[董军阳博客](www.dongjy.github.io)
+[董军阳博客](www.dongjy.github.io)  
 - ###图片
 
-![markdown简洁语法]({{site.baseurl}}/markdown-syntax.png)  
+![markdown简洁语法]({{site.baseurl}}/images/markdown-syntax.png)  
 **索引**  
 [不如][1]  
 ![GitHub Octocat][2]
