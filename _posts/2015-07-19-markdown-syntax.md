@@ -2,6 +2,8 @@
 layout: post
 title: markdown语法
 ---
+markdown语法
+
 - ###基本
 
 单个回车
@@ -55,14 +57,16 @@ Markdown 支持两种标题的语法，Setext 和 atx 形式。Setext 形式是�
 \- 嵌套列表  
 
 - ###链接
+
 [董军阳博客](www.dongjy.github.io)
 - ###图片
-![markdown简洁语法](https://github.com/dongjy/dongjy.github.io/tree/master/images/markdown-syntax)  
+
+![markdown简洁语法]({{site.baseurl}}/markdown-syntax.png)  
 **索引**  
-[不如][1]
+[不如][1]  
 ![GitHub Octocat][2]
 
-[1]:http://bruce-sha.github.io
+[1]:http://bruce-sha.github.io  
 [2]:http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png
 
 **自动链接**  
