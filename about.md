@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+###我的一些介绍
+[我的介绍](www.weibo.com)
+### 更多信息
 
-### More Information
+基于jekyll+github page的个人博客，源码forked自 [barryclark/jekyll-now](https://github.com/barryclark/jekyll-now) 
+### 联系我
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[dongjy@hundsun.com](mailto:dongjy@hundsun.com)
