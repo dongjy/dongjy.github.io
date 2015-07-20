@@ -16,15 +16,15 @@ jekyll 的全局配置
 
 网站的头部，底部，侧栏等公共部分。
 
-    {% include filename %}
-\{% include filename %\}
->“\” 转义 但不可放在代码块中
+![15][15]
+
+>“\” 转义,在代码块中无效
 
 **_layouts**
 
 对于网站的布局,我们一般会写成模板的形式。模板可以多层嵌套。模板中引入儿子内容。
 
-    {{ content }}
+![16][16]
 
 >必须在子节点顶部。
 
@@ -158,71 +158,81 @@ jekyll 生成网站输出的地方。一般加入.gitignore
 
 **输出变量：**
 
-\{{ page.title }\}
+![输出变量][17]
 
 **循环：**
 
-    {% for post in site.posts %}
-        <a href={{site.baseurl}}{{post.url}} >{{ post.title }}</a>
-    {{ endfor }}
+![循环][1]
 
 **自动生成摘要：**
 
-    {% for post in site.posts %}
-        {{ post.url }} {{post.title}}
-        {{ post.excerpt | remove: 'test' }}
-    {% endfor %}
+![自动生成摘要][2]
 
 **删除指定文本：**
 
-    {{ post.url | remove: 'http'}}
+![删除指定文本][3]
 
 **删除html标签**
 
-    {{ post.excerpt | scrip_html }}
+![删除html标签][4]
 
 **代码高亮**
 
-    {% highlight ruby linenos %}
-    \#some ruby code
-    {% endhighlight %}
+![代码高亮][5]
 
 **数组大小**
 
-    {{ array | size }}
+![数组大小][6]
 
 **赋值**
 
-    {% assign index = 1 %}
+![赋值][7]
 
 **格式化时间**
 
-    {{ site.time | date_to_xmlschema }}
-    {{ site.time | date_to_rfc822 }}
-    {{ site.time | date_to_string }}
-    {{ site.time | date_to_long_string }}
+![格式化时间][8]
 
 **搜索指定key**
 
-    {{ site.members | where: "graduation_year","2014" }}
+![搜索指定key][9]
 
 **排序**
 
-    {{ site.pages | sort: 'title','last' }}
+![排序][10]
 
 **to json**
 
-    {{ site.data.projects | jsonify }}
+![to json][11]
 
 **序列化**
 
-    {{ page.tags | array_to_sentence_string }}
+![序列化][12]
 
 **单词个数**
 
-    {{ page.content | number_of_words }}
+![单词个数][13]
 
 **指定个数**
 
-    {% for post in site.posts limit:20 %}
+![指定个数][14]
+
+[查看源码](https://github.com/dongjy/dongjy.github.io/edit/master/_posts/2015-07-20-jekyll-what.md)
+
+[1]:{{ site.baseurl }}/images/jekyll_1.png
+[2]:{{ site.baseurl }}/images/jekyll_2.png
+[3]:{{ site.baseurl }}/images/jekyll_3.png
+[4]:{{ site.baseurl }}/images/jekyll_4.png
+[5]:{{ site.baseurl }}/images/jekyll_5.png
+[6]:{{ site.baseurl }}/images/jekyll_6.png
+[7]:{{ site.baseurl }}/images/jekyll_7.png
+[8]:{{ site.baseurl }}/images/jekyll_8.png
+[9]:{{ site.baseurl }}/images/jekyll_9.png
+[10]:{{ site.baseurl }}/images/jekyll_10.png
+[11]:{{ site.baseurl }}/images/jekyll_11.png
+[12]:{{ site.baseurl }}/images/jekyll_12.png
+[13]:{{ site.baseurl }}/images/jekyll_13.png
+[14]:{{ site.baseurl }}/images/jekyll_14.png
+[15]:{{ site.baseurl }}/images/jekyll_15.png
+[16]:{{ site.baseurl }}/images/jekyll_16.png
+[17]:{{ site.baseurl }}/images/jekyll_17.png
 

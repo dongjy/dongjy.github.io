@@ -100,3 +100,6 @@ Javascript:
     }
 
     document.write(fib(10));
+
+	
+[查看源码](https://github.com/dongjy/dongjy.github.io/edit/master/_posts/2015-07-19-markdown-syntax.md)
